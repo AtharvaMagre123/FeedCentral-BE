@@ -20,7 +20,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://feed-central-fe.vercel.app",
     credentials: true,
   })
 );
